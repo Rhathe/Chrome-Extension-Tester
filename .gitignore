@@ -1,0 +1,7 @@
+*.swo
+*.swp
+test/results/
+test/stubs/requests.json
+test/stubs/requests/*
+testextension/
+node_modules/

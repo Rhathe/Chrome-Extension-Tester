@@ -1,0 +1,12 @@
+{
+	"name": "chrome_extension_tester",
+	"version": "0.0.0",
+	"devDependencies": {
+		"jasmine-reporters": "^2.0.7",
+		"jasmine-spec-reporter": "^2.4.0",
+		"karma": "^0.12.21",
+		"karma-jasmine": "^0.1.6",
+		"karma-phantomjs-launcher": "^0.1.4",
+		"protractor": "^2.5.1"
+	}
+}

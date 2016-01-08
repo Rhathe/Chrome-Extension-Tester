@@ -1,0 +1,14 @@
+<html>
+	<body>
+		<div>Login Page</div>
+		<span id="url"></span>
+		<form action="/authorize/" method="post" id="form">
+			<input type="submit" id="submit" value="SIGN IN"/>
+		</form>
+		<script>
+			document.getElementById('url').innerHTML = window.location.href;
+			document.getElementById('form').setAttribute('action', window.location.href)
+			document.getElementById('submit').click();
+		</script>
+	</body>
+</html>
